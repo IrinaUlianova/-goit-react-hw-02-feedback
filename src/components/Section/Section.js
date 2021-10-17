@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-
-const Section = ({ title, children }) => (
-  <section className="title">
-    {title}
-    {children}
-  </section>
-);
-export default Section;
+export default function Section({ title, children }) {
+  return (
+    <>
+      <h2>{title}</h2>
+      {children}
+    </>
+  );
+}
 
 Section.propTypes = {
   title: PropTypes.string.isRequired,
-  children: PropTypes.node,
+  children: PropTypes.node.isRequired,
 };

@@ -1,0 +1,11 @@
+.statistics_list {
+  margin-top: 15px;
+
+  font-weight: 400;
+  font-size: 18px;
+}
+.statistics_item {
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,9 @@
+.title {
+  padding: 15px 0 15px 0;
+  font-weight: 700;
+  font-size: 25px;
+
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}

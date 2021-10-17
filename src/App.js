@@ -26,8 +26,8 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import FeedbackOptions from './components/FeedbackOptions/FeedbackOptions';
-import Section from './components/Section/Section';
+import FeedbackOptions from './components/Feedbackoptions';
+import Section from './components/Section';
 import Statistics from './components/Statistics/Statistics';
 
 export default class App extends Component {
